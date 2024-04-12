@@ -204,7 +204,7 @@ header {
   width: 70%;
 }
 .progress-line .java {
-  width: 50%;
+  width: 80%;
 }
 .progress-line .sql {
   width: 50%;
@@ -246,7 +246,7 @@ header {
   content: "70%";
 }
 .progress-line .java::after {
-  content: "50%";
+  content: "80%";
 }
 .progress-line .sql::after {
   content: "50%";
@@ -273,6 +273,11 @@ header {
   color: #f0f0e6;
   font-weight: 400;
 }
+
+.work{
+  background-color: 25b79f;
+}
+
 
 .work-arrow {
   margin: 2rem 0;
@@ -302,12 +307,18 @@ header {
   padding: 6rem 0;
 }
 
+.proj-heading{
+  margin-top: 20px;
+}
+
+
 .proj-heading h1 {
   text-align: center;
   color: #07374a;
   font-size: 2.3rem;
   font-weight: 700;
-  margin: 3rem 0;
+  position: relative;
+  top: -30px; /* Adjust this value as needed */
 }
 
 .proj-1 {
@@ -317,16 +328,16 @@ header {
 }
 
 .proj-1 img {
-  height: 330px;
-  width: 380px;
-  object-fit: cover;
+  height: 280px;
+  width: 300px;
   border-radius: 50%;
   box-shadow: 0 20px 10px -10px rgb(37 41 52 / 31%);
-  margin-right: 1.7rem;
+  margin-left: -10rem; /* Adjust this value as needed */
 }
 
 .proj-1 .proj1-details {
-  width: 32rem;
+  width: 45rem;
+  margin-left: 100px; Adjust this value as needed
 }
 
 .proj-1 .proj1-details i {
@@ -341,7 +352,7 @@ header {
 
 .proj-1 .proj1-details p {
   font-size: 1.3rem;
-  color: #07374a;
+  color: black;
   font-weight: 600;
 }
 
@@ -388,16 +399,16 @@ header {
 }
 
 .proj-2 img {
-  height: 330px;
-  width: 380px;
-  object-fit: cover;
+  height: 280px;
+  width: 300px;
   border-radius: 50%;
   box-shadow: 0 20px 10px -10px rgb(37 41 52 / 31%);
-  margin-right: 1.7rem;
+  margin-left: -10rem;
 }
 
 .proj-2 .proj2-details {
-  width: 32rem;
+  width: 45rem;
+  margin-left: 100px;
 }
 
 .proj-2 .proj2-details i {
@@ -412,7 +423,7 @@ header {
 
 .proj-2 .proj2-details p {
   font-size: 1.3rem;
-  color: #07374a;
+  color: black;
   font-weight: 600;
 }
 
@@ -476,6 +487,7 @@ header {
   background: #07374a;
   position: relative;
   height: 92vh;
+  padding: 6rem 0;
 }
 
 .contact-content {
